@@ -1,0 +1,88 @@
+# This file was created Sat Mar 14 10:40:05 2026
+# Created by:
+#           :-) GROMACS - gmx rama, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_1PGB
+# Command line:
+#   gmx rama -f after_em.gro -s em.tpr -o rama_em_1pgb.xvg
+# gmx rama is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-77.3769  136.583  THR-2
+-122.198  150.379  TYR-3
+-112.326  148.157  LYS-4
+-116.81  129.83  LEU-5
+-99.9997  125.717  ILE-6
+-98.8185  128.811  LEU-7
+-136.076  80.2863  ASN-8
+-105.271  171.877  GLY-9
+-71.0127  -24.6182  LYS-10
+-118.048  -41.9549  THR-11
+-106.006  132.296  LEU-12
+-138.83  156.697  LYS-13
+130.235  -153.771  GLY-14
+-143.116  131.543  GLU-15
+-119.568  166.602  THR-16
+-124.871  167.886  THR-17
+-152.079  156.181  THR-18
+-91.6793  128.458  GLU-19
+-138.911  159.169  ALA-20
+-73.0873  -28.4764  VAL-21
+-157.596  168.119  ASP-22
+-68.9345  -34.8309  ALA-23
+-66.783  -39.2133  ALA-24
+-67.3815  -34.3426  THR-25
+-70.738  -41.2228  ALA-26
+-53.1359  -47.4857  GLU-27
+-47.2961  -59.3373  LYS-28
+-71.8073  -39.4522  VAL-29
+-69.003  -35.6035  PHE-30
+-65.002  -43.3499  LYS-31
+-64.6875  -48.6982  GLN-32
+-52.9245  -42.7462  TYR-33
+-64.2425  -51.757  ALA-34
+-59.6147  -43.4883  ASN-35
+-64.8243  -24.7761  ASP-36
+-104.005  4.2428  ASN-37
+89.2491  4.30071  GLY-38
+-78.7293  131.157  VAL-39
+-138.555  88.9703  ASP-40
+-132.441  -176.604  GLY-41
+-86.506  137.512  GLU-42
+-111.502  141.032  TRP-43
+-124.137  160.933  THR-44
+-136.004  138.039  TYR-45
+-121.555  111.46  ASP-46
+-78.4999  -15.4062  ASP-47
+-76.5627  -20.3138  ALA-48
+-119.882  -9.7197  THR-49
+65.3549  25.6299  LYS-50
+-106.811  125.981  THR-51
+-93.0011  154.272  PHE-52
+-134.862  147.585  THR-53
+-126.613  125.232  VAL-54
+-119.258  117.946  THR-55
