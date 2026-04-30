@@ -1,0 +1,21 @@
+title Reconstruction of Trp-Cage 1L2Y
+res asn phi 999.99 psi -56.14 omega 999.99 chi1 -67.63 chi2 -3.78
+res leu phi -43.98 psi -51.31 omega 176.73 chi1 52.88 chi2 106.91
+res tyr phi -66.47 psi -30.90 omega 178.89 chi1 -148.59 chi2 -85.19
+res ile phi -65.22 psi -45.94 omega 174.90 chi1 -44.72 chi2 -55.71
+res gln phi -64.75 psi -30.35 omega 175.83 chi1 -146.48 chi2 80.77
+res trp phi -73.14 psi -43.42 omega 171.54 chi1 178.57 chi2 78.60
+res leu phi -64.88 psi -43.25 omega 177.52 chi1 -76.21 chi2 176.47
+res lys phi -59.51 psi -25.70 omega -178.86 chi1 75.65 chi2 99.36
+res asp phi -77.99 psi -8.82 omega 174.29 chi1 -92.98 chi2 52.09
+res gly phi 110.78 psi 8.08 omega -178.31
+res gly phi 55.24 psi -124.37 omega 179.22
+res pro phi -57.98 psi -28.77 omega 177.95 chi1 -18.96 chi2 30.89
+res ser phi -81.83 psi 19.13 omega -176.66 chi1 -61.14
+res ser phi -124.06 psi 13.40 omega -176.35 chi1 -144.05
+res gly phi 67.93 psi 25.22 omega 175.74
+res arg phi -143.95 psi 131.30 omega -172.62 chi1 59.11 chi2 -175.49
+res pro phi -70.10 psi 160.07 omega -179.95 chi1 29.92 chi2 -34.43
+res pro phi -69.48 psi 145.67 omega 178.18 chi1 27.20 chi2 -33.07
+res pro phi -77.26 psi 124.22 omega 176.28 chi1 32.16 chi2 -34.51
+res ser phi -78.10 psi 999.99 omega 171.65 chi1 -60.44
