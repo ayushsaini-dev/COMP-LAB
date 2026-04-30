@@ -1,0 +1,28 @@
+# This file was created Sat Mar 14 11:18:04 2026
+# Created by:
+#          :-) GROMACS - gmx energy, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_helix
+# Command line:
+#   gmx energy -f md.edr -o energy.xvg
+# gmx energy is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "LJ (SR)"
+@ s1 legend "Coulomb (SR)"
+@ s2 legend "Potential"
+    0.000000  21410.748047  -166353.593750  -142118.328125
+    2.880000  27809.324219  -169921.484375  -139242.593750

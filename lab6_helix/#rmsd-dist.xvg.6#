@@ -1,0 +1,118 @@
+# This file was created Tue Mar 10 22:55:15 2026
+# Created by:
+#          :-) GROMACS - gmx cluster, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_helix
+# Command line:
+#   gmx cluster -s clean_ref.pdb -f clean_traj.xtc -cutoff 0.1 -cl clusters_0.1.pdb -g cluster_0.1.log -skip 5
+# gmx cluster is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMS Distribution"
+@    xaxis  label "RMS (nm)"
+@    yaxis  label "counts"
+@TYPE xy
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0
+         0           0

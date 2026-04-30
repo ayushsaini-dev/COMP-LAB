@@ -1,0 +1,47 @@
+# This file was created Tue Mar 10 22:16:08 2026
+# Created by:
+#           :-) GROMACS - gmx rama, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_helix
+# Command line:
+#   gmx rama -s em.tpr -f after_em.gro -o rama_em.xvg
+# gmx rama is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-67.0357  -38.9771  ALA-2
+-70.8969  -31.3872  ALA-3
+-71.1414  -45.8227  THR-4
+-63.9314  -43.9229  ALA-5
+-50.4459  -45.0231  GLU-6
+-55.1683  -56.7095  LYS-7
+-65.4065  -38.8022  VAL-8
+-67.1473  -32.9788  PHE-9
+-68.68  -47.6178  LYS-10
+-59.685  -49.2397  GLN-11
+-53.4547  -46.098  TYR-12
+-72.2029  -23.4824  ALA-13
+-83.3025  -42.6858  ASN-14
