@@ -1,0 +1,20 @@
+Covariance analysis log, written Tue Mar 17 23:48:32 2026
+
+Program: covar
+Working directory: /home/ayush-saini/lab7_1pgb
+
+Read 101 frames from md_1pgb_300.xtc (time 0 to 1000 ps)
+Read reference structure for fit from md_1pgb_300.gro
+
+Analysis group is 'Protein' (855 atoms)
+Fit group is 'Protein' (855 atoms)
+Analysis is non-mass weighted
+Fit is non-mass weighted
+Diagonalized the 2565x2565 covariance matrix
+Trace of the covariance matrix before diagonalizing: 8.24022
+Trace of the covariance matrix after diagonalizing: 8.24022
+
+Wrote 100 eigenvalues to eigenval_300.xvg
+Wrote reference structure to eigenvec_300.trr
+Wrote average structure to average.pdb and eigenvec_300.trr
+Wrote eigenvectors 1 to 100 to eigenvec_300.trr
