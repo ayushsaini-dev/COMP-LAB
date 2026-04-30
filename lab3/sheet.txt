@@ -1,0 +1,25 @@
+
+title Beta Sheet Segment (Residues 2-20)
+default extended
+res ace
+res thr phi -94.12 psi 130.16 omega -179.49 chi1 -53.43
+res tyr phi -118.91 psi 150.32 omega 178.77 chi1 -70.60 chi2 -77.61
+res lys phi -119.14 psi 154.06 omega 179.21 chi1 -166.50 chi2 -173.64 chi3 -122.43 chi4 -49.74
+res leu phi -130.24 psi 126.59 omega 174.78 chi1 170.61 chi2 68.09
+res ile phi -102.91 psi 122.21 omega 175.58 chi1 -64.65 chi2 173.96
+res leu phi -102.99 psi 122.37 omega -178.00 chi1 -62.88 chi2 136.30
+res asn phi -130.49 psi 61.26 omega 178.22 chi1 171.08 chi2 58.40
+res gly phi -85.39 psi 179.91 omega 179.26
+res lys phi -73.01 psi -36.64 omega -178.79 chi1 -45.70 chi2 -174.10 chi3 -65.64 chi4 78.64
+res thr phi -108.35 psi -37.93 omega -178.19 chi1 -82.35
+res leu phi -109.46 psi 127.61 omega -179.95 chi1 -149.07 chi2 -163.96
+res lys phi -132.35 psi 146.40 omega 178.95 chi1 -69.23 chi2 -152.93 chi3 168.03 chi4 53.33
+res gly phi 143.28 psi -158.04 omega 178.54
+res glu phi -143.26 psi 143.28 omega -177.86 chi1 -53.13 chi2 177.84 chi3 -47.76
+res thr phi -140.45 psi 163.51 omega 174.91 chi1 27.98
+res thr phi -131.97 psi 172.07 omega 179.59 chi1 65.65
+res thr phi -158.62 psi 156.12 omega 176.47 chi1 -165.47
+res glu phi -100.12 psi 135.93 omega 176.11 chi1 -51.73 chi2 -64.66 chi3 -49.24
+res ala phi -152.52 psi 155.52 omega 177.96
+res nme
+

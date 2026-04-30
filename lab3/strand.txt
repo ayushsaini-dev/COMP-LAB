@@ -1,0 +1,12 @@
+
+title Beta Strand (Residues 2-7)
+default extended
+res ace
+res thr phi -94.12 psi 130.16 omega -179.49 chi1 -53.43
+res tyr phi -118.91 psi 150.32 omega 178.77 chi1 -70.60 chi2 -77.61
+res lys phi -119.14 psi 154.06 omega 179.21 chi1 -166.50 chi2 -173.64 chi3 -122.43 chi4 -49.74
+res leu phi -130.24 psi 126.59 omega 174.78 chi1 170.61 chi2 68.09
+res ile phi -102.91 psi 122.21 omega 175.58 chi1 -64.65 chi2 173.96
+res leu phi -102.99 psi 122.37 omega -178.00 chi1 -62.88 chi2 136.30
+res nme
+
