@@ -1,0 +1,8 @@
+gmx pdb2gmx -f 1PGB.pdb -o 1pgb.gro -ignh -missing -p 1pgb.top 
+gmx editconf -f 1pgb.gro -o 1pgb_box.gro -c -d 1.0 -bt cubic
+gmx solvate -cp 1pgb_box.gro -cs spc216.gro -o 1pgb_aftersol.gro -p 1pgb.top
+gmx grompp -f em.mdp -c 1pgb_aftersol.gro -p 1pgb.top -o em.tpr -maxwarn 2
+gmx mdrun -v -s em.tpr -o em.trr -c after_em.gro -e em.edr -g em.log
+gmx grompp -f nvt.mdp -c after_em.gro -o md.tpr -g md.log -e md.edr -p 1pgb.top	
+gmx mdrun -v -s md.tpr -o md.trr -c after_md.gro -o md.trr -e md.edr -g md.log 
+
