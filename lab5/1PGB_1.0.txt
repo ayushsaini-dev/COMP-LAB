@@ -1,0 +1,63 @@
+Analysis for: 1PGB.pdb
+Probe Radius: 1.0 Å
+-----------------------------------
+Residue      Chain    SASA (Å²) 
+-----------------------------------
+MET1       A        95.38     
+THR2       A        71.63     
+TYR3       A        17.79     
+LYS4       A        60.51     
+LEU5       A        2.75      
+ILE6       A        67.44     
+LEU7       A        21.63     
+ASN8       A        66.02     
+GLY9       A        10.90     
+LYS10      A        138.36    
+THR11      A        102.97    
+LEU12      A        58.28     
+LYS13      A        103.07    
+GLY14      A        25.30     
+GLU15      A        105.69    
+THR16      A        51.51     
+THR17      A        83.22     
+THR18      A        30.62     
+GLU19      A        97.85     
+ALA20      A        16.74     
+VAL21      A        83.19     
+ASP22      A        62.36     
+ALA23      A        34.88     
+ALA24      A        46.13     
+THR25      A        51.69     
+ALA26      A        3.55      
+GLU27      A        57.75     
+LYS28      A        112.67    
+VAL29      A        74.65     
+PHE30      A        21.07     
+LYS31      A        86.19     
+GLN32      A        103.89    
+TYR33      A        91.41     
+ALA34      A        10.08     
+ASN35      A        98.26     
+ASP36      A        92.21     
+ASN37      A        61.85     
+GLY38      A        39.47     
+VAL39      A        19.77     
+ASP40      A        110.57    
+GLY41      A        23.53     
+GLU42      A        108.63    
+TRP43      A        66.72     
+THR44      A        57.79     
+TYR45      A        78.90     
+ASP46      A        45.90     
+ASP47      A        61.10     
+ALA48      A        69.54     
+THR49      A        76.16     
+LYS50      A        48.85     
+THR51      A        24.91     
+PHE52      A        15.57     
+THR53      A        31.24     
+VAL54      A        11.32     
+THR55      A        48.70     
+GLU56      A        92.53     
+-----------------------------------
+TOTAL RELATIVE SASA: 3350.65 Å²

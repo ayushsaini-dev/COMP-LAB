@@ -1,0 +1,15 @@
+#install these dependenicies
+
+sudo apt-get update
+sudo apt-get install python3-biopython
+pip install biopython
+pip install freesasa
+
+#running the program
+python3 sasa_python3.py 1PGB.pdb
+(in python 3)
+
+or
+
+python sasa_python2.py 1PGB.pdb 
+(in python 2)
