@@ -1,0 +1,23 @@
+
+
+# Set your protein name here. Change this to "sheet", "1PGB", or "1L2Y" for the other runs.
+PROT="sheet"
+
+# 1. System Preparation & Solvation
+gmx pdb2gmx -f ${PROT}.pdb -o ${PROT}.gro -ignh -missing -p ${PROT}.top -ter
+gmx editconf -f ${PROT}.gro -o ${PROT}_box.gro -c -d 1.0 -bt cubic
+gmx solvate -cp ${PROT}_box.gro -cs spc216.gro -o ${PROT}_aftersol.gro -p ${PROT}.top
+
+# 2. Energy Minimization
+gmx grompp -f em.mdp -c ${PROT}_aftersol.gro -p ${PROT}.top -o em.tpr -maxwarn 2
+gmx mdrun -v -s em.tpr -o em.trr -c after_em.gro -e em.edr -g em.log
+
+# 3. 1ns MD Simulation at 300K
+# (Requires md_300.mdp in your folder)
+gmx grompp -f md_300.mdp -c after_em.gro -o md_300.tpr -p ${PROT}.top -maxwarn 2
+gmx mdrun -v -s md_300.tpr -o md_300.trr -x md_300.xtc -c after_md_300.gro -e md_300.edr -g md_300.log
+
+# 4. 1ns MD Simulation at 363K
+# (Requires md_363.mdp in your folder)
+gmx grompp -f md_363.mdp -c after_em.gro -o md_363.tpr -p ${PROT}.top -maxwarn 2
+gmx mdrun -v -s md_363.tpr -o md_363.trr -x md_363.xtc -c after_md_363.gro -e md_363.edr -g md_363.log

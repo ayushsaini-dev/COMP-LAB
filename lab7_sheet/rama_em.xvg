@@ -1,0 +1,52 @@
+# This file was created Tue Mar 17 22:08:49 2026
+# Created by:
+#           :-) GROMACS - gmx rama, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab7_sheet
+# Command line:
+#   gmx rama -f after_em.gro -s em.tpr -o rama_em.xvg
+# gmx rama is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-78.0522  140.009  THR-2
+-121.688  147.562  TYR-3
+-118.78  145.742  LYS-4
+-129.904  138.238  LEU-5
+-117.471  135.559  ILE-6
+-104.882  123.829  LEU-7
+-134.706  68.1522  ASN-8
+-95.3357  163.637  GLY-9
+-67.6846  -31.148  LYS-10
+-108.653  -40.9636  THR-11
+-114.928  126.419  LEU-12
+-137.056  156.753  LYS-13
+136.276  -143.655  GLY-14
+-156.095  148.045  GLU-15
+-143.459  178.29  THR-16
+-142.121  168.97  THR-17
+-150.914  163.178  THR-18
+-107.227  147.936  GLU-19
