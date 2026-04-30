@@ -1,0 +1,3 @@
+gmx pdb2gmx -f 1DF7.pdb   -o protein_processed.gro -ter -ignh
+
+
