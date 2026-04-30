@@ -1,0 +1,53 @@
+# This file was created Fri Mar 13 18:51:26 2026
+# Created by:
+#           :-) GROMACS - gmx rama, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_sheet
+# Command line:
+#   gmx rama -f after_em.gro -s em.tpr -o rama_em_sheet.xvg
+# gmx rama is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-69.0104  144.849  THR-2
+-136.591  126.2  TYR-3
+-93.6061  151.325  LYS-4
+-135.835  134.54  LEU-5
+-110.539  138.553  ILE-6
+-110.127  113.965  LEU-7
+-127.258  47.7035  ASN-8
+-70.2449  162.721  GLY-9
+-64.6241  -34.2878  LYS-10
+-107.741  -42.8967  THR-11
+-105.297  125.72  LEU-12
+-139.848  146.175  LYS-13
+157.65  -142.011  GLY-14
+-155.205  142.673  GLU-15
+-139.677  178.006  THR-16
+-142.148  166.606  THR-17
+-146.444  162.562  THR-18
+-110.165  147.261  GLU-19
+-155.727  164.35  ALA-20

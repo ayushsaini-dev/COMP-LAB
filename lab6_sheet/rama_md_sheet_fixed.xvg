@@ -1,0 +1,53 @@
+# This file was created Sat Mar 14 10:24:03 2026
+# Created by:
+#           :-) GROMACS - gmx rama, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ayush-saini/lab6_sheet
+# Command line:
+#   gmx rama -f after_md.gro -s md.tpr -o rama_md_sheet_fixed.xvg
+# gmx rama is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-130.72  157.79  THR-2
+-97.3309  153.972  TYR-3
+-96.8225  149.261  LYS-4
+-120.458  144.533  LEU-5
+-88.531  117.045  ILE-6
+-113.794  168.077  LEU-7
+-143.605  139.688  ASN-8
+-176.395  -170.921  GLY-9
+-71.4809  -29.5489  LYS-10
+-122.373  -30.918  THR-11
+-110.265  103.653  LEU-12
+-134.32  143.978  LYS-13
+86.1001  -151.461  GLY-14
+-73.3504  131.468  GLU-15
+-151.249  138.656  THR-16
+-62.4065  150.583  THR-17
+-131.718  150.614  THR-18
+-68.0893  4.96828  GLU-19
+-103.476  155.648  ALA-20
